@@ -868,21 +868,21 @@ Blog page
 	margin-bottom: 20px;
 	font-family: 'Cafe24SsurroundAir';
 	overflow: hidden;
+	padding-bottom: 100px;
 }
 
 .blog-post-item:first-child {
-	padding-bottom: 50px;
+	
 }
 .blog-post-item:last-child {
-	padding-bottom: 150px;
+	padding-bottom: 250px;
 }
 
 .blog-thumb {
 	width: calc(100% - 50px);
 	height: 430px;
 	border-radius: 10px;
-	border: 1px solid rgba(206, 0, 154, 0.8);
-	padding-top: 50px;
+	border: 2px solid rgba(206, 0, 154, 0.8);
 	background-color: rgb(255, 193, 231);
 	box-shadow: 20px 20px 0 rgba(206, 0, 154, 0.8);
 }
@@ -891,19 +891,22 @@ Blog page
 
 .post-date {
 	/* background: #fff; */
-	width: 145px;
-	height: 84px;
-	padding-top: 25px;
+	width: 120px;
+	height: 83px;
+	padding-top: 15px;
 	padding-left: 10px;
 	overflow: hidden;
-	border-radius: 50px 0 50px;
+	border-radius: 5px 0 20px;
+	background-color: rgba(206, 0, 154, 1);
 }
 
 .post-date h3 {	
 	font-weight: 900;
-	font-size: 28px;
+	font-size: 22px;
 	margin-right: 15px;
+	letter-spacing: 3px;
 	font-family: 'Cafe24Danjunghae';
+	color: #fff;
 }
 
 
@@ -911,11 +914,11 @@ Blog page
 	width: calc(100% - 150px);
 	background: #fff;
 	padding: 40px 35px;
-	margin-top: -133px;
+	margin-top: -50px;
 	margin-left: 62px;
 	border-radius: 10px;
 	background-color: rgb(255, 193, 231);
-	border: 1px solid rgba(206, 0, 154, 1);
+	border: 2px solid rgba(206, 0, 154, 1);
 	box-shadow: -20px 20px 0 rgba(0, 82, 206, 1);
 	float: right;
 }
